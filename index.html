@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Count</title>
+    <link rel="stylesheet" href="css/design.css">
+    <script src="js/parametri.js"></script>
+</head>
+<body onload="caricamento()">
+
+    <h1 id="Ore">€/h</h1>
+    <input type="number" name="ore" id="ore" min="0" value="0" onchange="validate()">
+
+    <input type="submit" name="tot" id="tot" value="Calcola" onclick="totale()">
+    
+    <!--Tabella-->
+    <table id="tabella">
+    
+    <thead>
+        <tr>
+            <td>Giorni</td>
+            <td>Ore</td>
+            <td>Paga</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>
+                <input type="number" id="eh1" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check1" onclick="validate()">
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>
+                <input type="number" id="eh2" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check2" onclick="validate()">
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>
+                <input type="number" id="eh3" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+
+                <input type="checkbox" id="check3" onclick="validate()">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>
+                <input type="number" id="eh4" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+
+                <input type="checkbox" id="check4" onclick="validate()">
+            
+            </td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>
+                <input type="number" id="eh5" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check5" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>
+                <input type="number" id="eh6" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check6" min="0" value="0" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>
+                <input type="number" id="eh7" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check7" min="0" value="0" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>
+                <input type="number" id="eh8" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check8" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>
+                <input type="number" id="eh9" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check9" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>10</td>
+            <td>
+                <input type="number" id="eh10" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check10" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>11</td>
+            <td>
+                <input type="number" id="eh11" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check11" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>12</td>
+            <td>
+                <input type="number" id="eh12" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check12" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>
+                <input type="number" id="eh13" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check13" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>14</td>
+            <td>
+                <input type="number" id="eh14" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check14" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>15</td>
+            <td>
+                <input type="number" id="eh15" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check15" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>16</td>
+            <td>
+                <input type="number" id="eh16" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check16" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>17</td>
+            <td>
+                <input type="number" id="eh17" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check17" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>18</td>
+            <td>
+                <input type="number" id="eh18" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check18" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>19</td>
+            <td>
+                <input type="number" id="eh19" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check19" min="0" value="0" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>20</td>
+            <td>
+                <input type="number" id="eh20" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check20" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>21</td>
+            <td>
+                <input type="number" id="eh21" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check21" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>22</td>
+            <td>
+                <input type="number" id="eh22" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check22" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>23</td>
+            <td>
+                <input type="number" id="eh23" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check23" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>24</td>
+            <td>
+                <input type="number" id="eh24" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check24" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>25</td>
+            <td>
+                <input type="number" id="eh25" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check25" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>26</td>
+            <td>
+                <input type="number" id="eh26" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check26" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>27</td>
+            <td>
+                <input type="number" id="eh27" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check27" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>28</td>
+            <td>
+                <input type="number" id="eh28" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check28" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>29</td>
+            <td>
+                <input type="number" id="eh29" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check29" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>30</td>
+            <td>
+                <input type="number" id="eh30" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check30" onclick="validate()">
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>31</td>
+            <td>
+                <input type="number" id="eh31" min="0" value="0" onchange="validate()" >
+            </td>
+            <td>
+                
+                <input type="checkbox" id="check31" onclick="validate()">
+            
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Totale</td>
+            <td></td>
+            <td id="totale"></td>
+        </tr>
+
+    </table>
+</body>
+</html>

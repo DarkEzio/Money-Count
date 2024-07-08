@@ -1,0 +1,315 @@
+body{
+    background-color: black;
+    background-size: cover;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;  
+}
+table{
+    background-color: aqua;
+    font-size: 30px;
+    border-radius: 5px;
+}
+td,th{
+    border: 1px solid;
+    text-align: center;
+}
+
+input[type=checkbox]{
+    transform: scale(2);
+}
+
+#paga{
+    background-color: aqua;
+    position: absolute;
+    top: 55px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+}
+#euro_ora{
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+    top: 20px;
+    left: 355px;
+}
+#Ore{
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+    top: 80px;
+    left: 355px;
+}
+#ore{
+    background-color: aqua;
+    position: absolute;
+    top: 125px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+}
+
+#eh1{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 52.4px;
+    left: 94px;
+}
+#eh2{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 92.4px;
+    left: 94px;
+}
+#eh3{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 134.4px;
+    left: 94px;
+}
+#eh4{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 175.4px;
+    left: 94px;
+}
+#eh5{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 215.4px;
+    left: 94px;
+}
+#eh6{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 256.4px;
+    left: 94px;
+}
+#eh7{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 298.4px;
+    left: 94px;
+}
+#eh8{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 339.4px;
+    left: 94px;
+}
+#eh9{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 380.4px;
+    left: 94px;
+}
+#eh10{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 421.4px;
+    left: 94px;
+}
+
+/* seconda parte*/
+
+#eh11{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 462.4px;
+    left: 94px;
+}
+#eh12{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 503.4px;
+    left: 94px;
+}
+#eh13{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 544.4px;
+    left: 94px;
+}
+#eh14{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 585.4px;
+    left: 94px;
+}
+#eh15{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 626.4px;
+    left: 94px;
+}
+#eh16{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 667.4px;
+    left: 94px;
+}
+#eh17{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 708.4px;
+    left: 94px;
+}
+#eh18{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 749.4px;
+    left: 94px;
+}
+#eh19{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 790.4px;
+    left: 94px;
+}
+#eh20{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 831.4px;
+    left: 94px;
+}
+
+/*terza parte*/
+
+#eh21{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 872.4px;
+    left: 94px;
+}
+#eh22{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 913.4px;
+    left: 94px;
+}
+#eh23{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 954.4px;
+    left: 94px;
+}
+#eh24{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 995.4px;
+    left: 94px;
+}
+#eh25{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1036.4px;
+    left: 94px;
+}
+#eh26{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1077.4px;
+    left: 94px;
+}
+#eh27{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1118.4px;
+    left: 94px;
+}
+#eh28{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1159.4px;
+    left: 94px;
+}
+#eh29{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1200.4px;
+    left: 94px;
+}
+#eh30{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1241.4px;
+    left: 94px;
+}
+#eh31{
+    
+    background-color: aqua;
+    height: 30px;
+    width: 36px;
+    top: 1282.4px;
+    left: 94px;
+}
+
+#tot{
+    position: absolute;
+    background-color:blueviolet;
+    color: aqua;
+    top: 1440.4px;
+    left: 240px;
+}
